@@ -16,11 +16,9 @@ const createBoxes = (amount) => {
     divAdd.style.background = getRandomHexColor();
     elements.push(divAdd);
   }
-  divEl.append(...elements);
 
-  return elements;
+  return divEl.append(...elements);
 };
-
 
 btnCreate.addEventListener("click", () => {
   return createBoxes(inputEl.value);
