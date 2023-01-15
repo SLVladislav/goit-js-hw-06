@@ -20,7 +20,7 @@ const createBoxes = (amount) => {
 
   return elements;
 };
-console.log(divEl);
+
 
 btnCreate.addEventListener("click", () => {
   return createBoxes(inputEl.value);
